@@ -30,7 +30,7 @@
 				"header": [],
 				"url": {
 					"raw": "http://localhost:5000/products",
-					"protocol": "https",
+					"protocol": "http",
 					"host": [
 						"localhost"
 					],
@@ -67,7 +67,7 @@
 				"header": [],
 				"url": {
 					"raw": "http://localhost:5000/products",
-					"protocol": "https",
+					"protocol": "http",
 					"host": [
 						"localhost"
 					],
