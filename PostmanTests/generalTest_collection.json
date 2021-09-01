@@ -29,8 +29,8 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:53087/products",
-					"protocol": "http",
+					"raw": "https://localhost:53087/products",
+					"protocol": "https",
 					"host": [
 						"localhost"
 					],
@@ -66,8 +66,8 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:53087/products",
-					"protocol": "http",
+					"raw": "https://localhost:53087/products",
+					"protocol": "https",
 					"host": [
 						"localhost"
 					],
