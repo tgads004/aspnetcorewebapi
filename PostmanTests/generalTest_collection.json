@@ -29,12 +29,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/products",
+					"raw": "http://localhost:53087/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5000",
+					"port": "53087",
 					"path": [
 						"products"
 					]
@@ -66,12 +66,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/products",
+					"raw": "http://localhost:53087/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5000",
+					"port": "53087",
 					"path": [
 						"products"
 					]
