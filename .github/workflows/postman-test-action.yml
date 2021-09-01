@@ -14,7 +14,21 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    # INstall Node on the runner
+    #Setup .NET
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+
+    #Restore Dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    #Build
+    - name: Build
+      run: dotnet build --no-restore
+
+    # Install Node on the runner
     - name: Install Node
       uses: actions/setup-node@v1
       with: 
